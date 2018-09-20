@@ -1,0 +1,7 @@
+{
+  "name": "hacked",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
