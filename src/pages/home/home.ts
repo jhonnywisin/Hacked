@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import { PagePuzzlesPage } from './../page-puzzles/page-puzzles';
 
 @Component({
   selector: 'page-home',
@@ -7,9 +8,9 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController) {
+  constructor(public navCtrl: NavController) {}
 
-    //inicializando hacked
-
+  pagePuzzles(){
+    this.navCtrl.push(PagePuzzlesPage);
   }
 }

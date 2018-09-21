@@ -1,0 +1,16 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>pageStory</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+    <button ion-item *ngFor= "let item of niveles" (click)="openDetailsPage(item);">
+      {{item.titulo}}
+    </button>
+  </ion-list>
+</ion-content>

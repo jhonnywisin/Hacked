@@ -1,14 +1,18 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>
-      Hacked
-    </ion-title>
+    <ion-buttons right>
+      <button ion-button icon-only color="person">
+        <ion-icon name="ios-person-outline"></ion-icon>
+      </button>
+    </ion-buttons>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content class="contenido">
+  <ion-card class="card">
+    <img src="assets/imgs/fondo3.jpg"/>
+  </ion-card>
+  <button ion-button class="btn1" outline (click)="pagePuzzles();">puzzles</button>
+  <button ion-button class="btn2" outline >robot</button>
+  <button ion-button class="btn3" outline >games</button>
 </ion-content>
